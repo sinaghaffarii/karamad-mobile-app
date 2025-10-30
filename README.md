@@ -4,7 +4,8 @@
 
 ## 🌟 Overview
 
-Karamad is a modern web application built with Next.js 16, React 19, and TypeScript, designed to provide a seamless user experience with advanced features and beautiful animations.
+Karamad is a modern web application built with Next.js 16, React 19, and TypeScript, designed to
+provide a seamless user experience with advanced features and beautiful animations.
 
 ## ✨ Features
 
@@ -40,21 +41,25 @@ Karamad is a modern web application built with Next.js 16, React 19, and TypeScr
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/karamad.git
 ```
 
 2. Navigate to project directory
+
 ```bash
 cd karamad
 ```
 
 3. Install dependencies
+
 ```bash
 pnpm install
 ```
 
 4. Run development server
+
 ```bash
 pnpm dev
 ```
@@ -117,6 +122,7 @@ The project includes several configuration files:
 ## 📱 Responsive Design
 
 The application is fully responsive and works seamlessly across:
+
 - Desktop devices
 - Tablets
 - Mobile devices
