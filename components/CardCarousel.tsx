@@ -3,13 +3,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import type { ICard } from '@/utils/types';
+import type { Card } from '@/utils/types';
 
 import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 
 interface Props {
-  cards: ICard[];
+  cards: Card[];
 }
 
 function CardCarousel({ cards }: Props) {
@@ -21,7 +21,7 @@ function CardCarousel({ cards }: Props) {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {cards.map((card, index) => (
+        {cards.map((card) => (
           <SwiperSlide key={card.id}>
             <div
               className={cn(
