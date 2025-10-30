@@ -3,13 +3,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import type { Card } from '@/utils/types';
+import type { ICard } from '@/utils/types';
 
 import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 
 interface Props {
-  cards: Card[];
+  cards: ICard[];
 }
 
 function CardCarousel({ cards }: Props) {

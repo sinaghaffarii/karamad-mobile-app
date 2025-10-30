@@ -1,6 +1,6 @@
-import type { Card } from '@/utils/types';
+import type { ICard } from '@/utils/types';
 
-export const cards: Card[] = [
+export const cards: ICard[] = [
   {
     id: 1,
     title: 'حساب درآمد ویژه',
