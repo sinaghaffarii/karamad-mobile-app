@@ -1,6 +1,6 @@
 # Karamad - Modern Web Application
 
-![Karamad App](public/images/Feeling-sorry-cuate.png)
+![Karamad App](public/images/karamad.png)
 
 ## 🌟 Overview
 
